@@ -1,0 +1,111 @@
+h1 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 100px;
+	font-weight: 700;
+}
+
+p {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.btn-default {
+	border-radius: 0;
+}
+
+html {
+  background: url(../img/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+
+body {
+	background: none;
+	height: 100%;
+	text-align: center;
+}
+
+h1 {
+	color: white;
+	font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+	color: white;
+	font-family: 'Raleway', sans-serif;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.links {
+	color: #0f102c;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	margin-top: 25px;
+}
+
+.links a {
+	color: #0f102c;
+	text-decoration: none;
+}
+
+.links a i {
+	margin-right: 5px;
+	margin-left: 15px;
+}
+
+body {
+	margin: 0;
+}
+
+.title {
+	font-style: italic;
+	text-transform: uppercase;
+	margin: 0;
+	color: #0f102c;
+	letter-spacing: -3pt;
+	font-weight: 800;
+}
+
+.subtitle {
+	font-weight: 500;
+	font-size: 25px;
+	color: #0f102c;
+	margin-bottom: 12px;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 0;
+}
+
+a, :link a, :visited a, :hover a, :active a {
+	color: #0f102c;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card {
+	background-color: white;
+	padding: 25px;
+	max-width: 650px;
+}
+
+@media (max-width: 767px) {
+	h1 {
+		font-size: 60px;
+	}
+
+	.subtitle {
+		font-size: 25px;
+	}
+}
